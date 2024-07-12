@@ -32,7 +32,7 @@ conc.grid(row=2, column=1)
 
 clicked = StringVar()
 clicked.set("mol/L")
-drop = OptionMenu(main, clicked, "mol/L", "mmol/L", "Hmol/L", "nmol/L")
+drop = OptionMenu(main, clicked, "mol/L", "mmol/L", "Mmol/L", "nmol/L")
 drop.grid(row=2, column=2)
 
 #max vol of beaker
